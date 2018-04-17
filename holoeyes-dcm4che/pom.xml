@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>dcm4che-parent</artifactId>
+        <groupId>org.dcm4che</groupId>
+        <version>5.13.1</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.holoeyes.dcm4che</groupId>
+    <artifactId>holoeyes-dcm4che</artifactId>
+    <version>1.0.0</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.dcm4che</groupId>
+            <artifactId>dcm4che-core</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.dcm4che</groupId>
+            <artifactId>dcm4che-net</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.dcm4che.tool</groupId>
+            <artifactId>dcm4che-tool-common</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>
