@@ -174,11 +174,6 @@ public class DicomClient extends Device {
 
     @SuppressWarnings("unchecked")
     public static void main(String[] args) {
-
-        System.out.println("Hello World");
-
-        if (true) return;
-
         try {
             CommandLine cl = parseComandLine(args);
             DicomClient main = new DicomClient();
